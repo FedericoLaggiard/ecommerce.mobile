@@ -3,6 +3,10 @@
   "version": "0.0.1",
   "description": "test",
   "main": "index.js",
+  "repository" :{ 
+    "type" : "git",
+    "url" : "git@github.com:FedericoLaggiard/ecommerce.mobile.git"
+  },
   "scripts": {
     "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
