@@ -3,9 +3,9 @@
   "version": "0.0.1",
   "description": "test",
   "main": "index.js",
-  "repository" :{ 
-    "type" : "git",
-    "url" : "git@github.com:FedericoLaggiard/ecommerce.mobile.git"
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:FedericoLaggiard/ecommerce.mobile.git"
   },
   "scripts": {
     "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
@@ -28,6 +28,10 @@
     "babel-preset-es2015": "6.18.0",
     "babel-preset-react": "6.16.0",
     "babel-preset-stage-1": "6.16.0",
+    "css-loader": "0.25.0",
+    "less": "2.7.1",
+    "less-loader": "2.2.3",
+    "style-loader": "0.13.1",
     "webpack": "1.13.3",
     "webpack-dev-server": "1.16.2"
   }
