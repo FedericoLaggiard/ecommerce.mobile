@@ -20,6 +20,10 @@ module.exports = {
         exclude: /node_modules/,
         test: /\.less$/,
         loader: "style!css!less"
+      },
+      {
+        test: /\.(jpe|jpg|woff|woff2|eot|ttf|svg)(\?.*$|$)/,
+        loader: 'file'
       }
     ]
   },
@@ -28,6 +32,7 @@ module.exports = {
   },
   devServer: {
     historyApiFallback: true,
-    contentBase: './'
+    contentBase: './',
+    inline: true
   }
 };
